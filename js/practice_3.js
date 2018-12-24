@@ -26,12 +26,8 @@ let appData = {
 //         console.log('done');    
 //         appData.expenses[a] = b;
 //     } else { 
-//         if( i == 1){
-//             i = 0;
-//         } else if( i == 2){
-//             i = 1;
-//         }
-//         console.log('repeate');    
+        // console.log('repeate');
+        // i--;    
 //     }
 // }
 
@@ -51,12 +47,8 @@ let appData = {
 //         console.log('done');    
 //         appData.expenses[a] = b;
 //     } else { 
-//         if( i == 1){
-//             i = 0;
-//         } else if( i == 2){
-//             i = 1;
-//         }
-//         console.log('repeate');    
+        // console.log('repeate');
+        // i--;    
 //     }
 // }
 
@@ -75,12 +67,8 @@ do{
         console.log('done');    
         appData.expenses[a] = b;
     } else { 
-        if( i == 1){
-            i = 0;
-        } else if( i == 2){
-            i = 1;
-        }
-        console.log('repeate');    
+        console.log('repeate');
+        i--;    
     }
     
 } while(i < 2);
